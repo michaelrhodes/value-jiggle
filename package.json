@@ -1,6 +1,6 @@
 {
   "name": "value-jiggle",
-  "version": "0.0.0"
+  "version": "0.0.0",
   "description": "Randomly changes values within a given threshold.",
   "main": "index.js",
   "dependencies": {
