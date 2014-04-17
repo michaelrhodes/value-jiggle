@@ -19,5 +19,5 @@ module.exports = function(value, threshold) {
   var options = range(low, high)
   var index = floor(random() * options.length)
 
-  return (options[index] / 100).toFixed(decimal)
+  return Number((options[index] / 100).toFixed(decimal))
 }

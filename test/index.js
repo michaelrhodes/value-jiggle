@@ -9,6 +9,7 @@ tape('decimal number', function(test) {
   var output = jiggle(input, threshold)
   var message = '(' + input + ' -> ' + output + ')'
 
+  test.equal(typeof output, 'number')
   test.ok(output >= diff && output <= sum, message)
   test.end()
 })
@@ -21,6 +22,7 @@ tape('integer', function(test) {
   var output = jiggle(input, threshold)
   var message = '(' + input + ' -> ' + output + ')'
 
+  test.equal(typeof output, 'number')
   test.ok(output >= diff && output <= sum, message)
   test.end()
 })
