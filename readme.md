@@ -7,7 +7,7 @@ value-jiggle changes values within a given threshold.
 
 ## Install
 ```
-$ npm install michaelrhodes/value-jiggle
+$ npm install value-jiggle
 ```
 
 ### Example
